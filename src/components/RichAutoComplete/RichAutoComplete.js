@@ -8,7 +8,6 @@ import "./rich-autocomplete.css";
 export default class RichAutoComplete extends React.Component {
     componentDidMount(){
         this.items = artists;
-        console.log(artists);
     }
     componentWillUnmount(){
 

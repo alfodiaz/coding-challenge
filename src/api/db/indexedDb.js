@@ -36,7 +36,6 @@ document.addEventListener('DOMContentLoaded',()=>{
         
     
         store.openCursor().onsuccess = function(event) {
-          console.log('1');
           var cursor = event.target.result;
           if (cursor) {
               artists.push(cursor.value.name);
