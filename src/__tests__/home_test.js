@@ -10,7 +10,7 @@ import {render, fireEvent, screen} from '@testing-library/react'
 import App from '../App'
 
 test('Test home text to be in document', () => {
-  const testMessage = 'Buttons of material-ui framework'
+  const testMessage = 'Buttons of rich-ui framework'
   render(<App></App>)
 
   expect(screen.getByText(testMessage)).toBeInTheDocument()
